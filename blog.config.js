@@ -65,7 +65,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '读万卷书行万里路, 愿你在英国学有所成, 享受探索世界的乐趣, 期待你的精彩分享',
+    '读万卷书, 行万里路, 愿你在英国学有所成, 享受探索世界的乐趣',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
