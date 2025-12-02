@@ -18,7 +18,7 @@ const BLOG = {
   DESCRIPTION: ' ',        // 网站描述（填空格以隐藏）
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Lin', // 您的昵称 例如 tangly1024
   BIO: ' ',                // 作者简介
-  AVATAR: '这里填你的https图片链接',
+  AVATAR: '',
   LINK: 'https://ray.ziyulin.com', // 网站地址å
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
