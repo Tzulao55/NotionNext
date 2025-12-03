@@ -17,7 +17,8 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Ziyulin', // 您的昵称
   BIO: ' ',                // 作者简介
-  LINK: 'https://ray.ziyulin.com', // 网站地址å
+  LINK: 'https://ray.ziyulin.com', // 网站地址
+  DEFAULT_SEO_IMAGE: 'https://images.ziyulin.com/ucl_and_london.png', // 确保这里有个默认图片，防止Notion没封面时挂掉
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
