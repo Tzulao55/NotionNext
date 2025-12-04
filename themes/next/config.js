@@ -6,6 +6,7 @@ const CONFIG = {
     'Hi，我是一个干饭人',
     '欢迎来到我的博客🎉'
   ], // 首页大图标语文字
+  NEXT_HOME_BANNER_IMAGE: 'https://images.ziyulin.com/bg_image.jpg', //为了在微信收藏里显示图片，自己添加的，不知道对不对。
 
   NEXT_NAV_TYPE: 'autoCollapse', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部并始终显示、固定屏幕顶部且滚动时隐藏，不固定屏幕顶部
 
