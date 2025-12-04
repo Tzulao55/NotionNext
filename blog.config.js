@@ -15,7 +15,7 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Ziyulin', // 您的昵称
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '紫雨林', // 您的昵称
   BIO: ' ',                // 作者简介
   LINK: 'https://ray.ziyulin.com', // 网站地址
   DEFAULT_SEO_IMAGE: 'https://images.ziyulin.com/ucl_and_london.png', // 确保这里有个默认图片，防止Notion没封面时挂掉
